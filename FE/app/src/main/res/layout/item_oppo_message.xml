@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp">
+
+    <LinearLayout
+        android:id="@+id/oppoLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="50dp">
+
+        <TextView
+            android:id="@+id/oppoMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#424242"
+            android:background="@drawable/opo_msg_back"
+            android:padding="20dp"
+            android:text="This is opponent msg"/>
+
+        <TextView
+            android:id="@+id/oppoMessageTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="10sp"
+            android:text="07-07-2024"/>
+
+        <TextView
+            android:id="@+id/oppoMessageSender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="#424242"
+            android:layout_marginTop="2dp"
+            android:text="Sender"/>
+
+    </LinearLayout>
+</RelativeLayout>

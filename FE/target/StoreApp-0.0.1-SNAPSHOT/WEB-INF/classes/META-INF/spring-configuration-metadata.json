@@ -1,0 +1,26 @@
+{
+  "groups": [],
+  "properties": [
+    {
+      "name": "cloudinary.api_key",
+      "type": "java.lang.String",
+      "description": "A description for 'cloudinary.api_key'"
+    },
+    {
+      "name": "cloudinary.api_secret",
+      "type": "java.lang.String",
+      "description": "A description for 'cloudinary.api_secret'"
+    },
+    {
+      "name": "cloudinary.cloud_name",
+      "type": "java.lang.String",
+      "description": "A description for 'cloudinary.cloud_name'"
+    },
+    {
+      "name": "mail.smtp.debug",
+      "type": "java.lang.String",
+      "description": "A description for 'mail.smtp.debug'"
+    }
+  ],
+  "hints": []
+}
